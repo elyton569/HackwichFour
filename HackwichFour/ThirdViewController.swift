@@ -1,22 +1,20 @@
 //
-//  secondViewController.swift
+//  ThirdViewController.swift
 //  HackwichFour
 //
-//  Created by CM Student on 2/11/20.
+//  Created by CM Student on 2/13/20.
 //  Copyright © 2020 Errin Lyton. All rights reserved.
 //
 
 import UIKit
 
-class secondViewController: UIViewController {
+class ThirdViewController: UIViewController {
 
-    @IBOutlet weak var secondlabel: UILabel!
+    @IBOutlet weak var favoriteFoodLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-       // We want to set secondlabel to "My Classes"
-       self.secondlabel.text = "My Classes"
     }
     
 
@@ -29,5 +27,10 @@ class secondViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+
+    @IBAction func colorbuttonpressgreen(_ sender: Any){
+        self.view.backgroundColor = UIColor.green
+}
+
 
 }

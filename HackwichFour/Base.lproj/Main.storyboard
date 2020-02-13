@@ -123,10 +123,10 @@
             </objects>
             <point key="canvasLocation" x="-90.400000000000006" y="447.52623688155927"/>
         </scene>
-        <!--View Controller-->
+        <!--Third View Controller-->
         <scene sceneID="7Bm-SK-Iph">
             <objects>
-                <viewController id="iHk-yH-8MG" sceneMemberID="viewController">
+                <viewController id="iHk-yH-8MG" customClass="ThirdViewController" customModule="HackwichFour" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WBD-PI-yc6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -138,15 +138,26 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Os-W6-0Bu">
+                                <rect key="frame" x="149" y="398" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="colorbuttonpressgreen:" destination="iHk-yH-8MG" eventType="touchUpInside" id="Poh-AC-Jpp"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="YyI-YO-XJu"/>
                     </view>
                     <navigationItem key="navigationItem" id="MaO-cF-Pam"/>
+                    <connections>
+                        <outlet property="favoriteFoodLabel" destination="grz-aS-A3r" id="4w6-rE-uUB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vVk-5K-0xf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1768.8" y="1142.8785607196403"/>
+            <point key="canvasLocation" x="849" y="1151"/>
         </scene>
         <!--Item-->
         <scene sceneID="HMU-CZ-62r">
@@ -165,7 +176,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O88-m7-FKL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="829.60000000000002" y="1142.8785607196403"/>
+            <point key="canvasLocation" x="-103" y="1164"/>
         </scene>
     </scenes>
     <resources>

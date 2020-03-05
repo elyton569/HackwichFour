@@ -10,13 +10,25 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet var imageViewtwo: UIView!
     @IBOutlet weak var firstlabel: UILabel!
+    @IBOutlet weak var secondlabel: UILabel!
+    @IBOutlet weak var thirdlabel: UILabel!
+    @IBOutlet weak var fourthlabel: UILabel!
+    @IBOutlet weak var fifthlabel: UILabel!
+    @IBOutlet weak var myTextView: UITextView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        myTextView.text =
+
+        self.imageView.image = UIImage(named: "image1")
+        self.imageView.image = UIImage(named: "Image 2")
   
-       //we want to set firstlabel to "About"
-        self.firstlabel.text = "About"
     }
 
 

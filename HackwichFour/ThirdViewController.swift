@@ -10,10 +10,6 @@ import UIKit
 
 class ThirdViewController: UIViewController {
 
-    @IBOutlet weak var favoriteFoodLabel: UILabel!
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
     
@@ -28,9 +24,6 @@ class ThirdViewController: UIViewController {
     }
     */
 
-    @IBAction func colorbuttonpressgreen(_ sender: Any){
-        self.view.backgroundColor = UIColor.green
-}
 
 
-}
+

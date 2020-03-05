@@ -10,13 +10,9 @@ import UIKit
 
 class secondViewController: UIViewController {
 
-    @IBOutlet weak var secondlabel: UILabel!
     override func viewDidLoad() {
-        super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-       // We want to set secondlabel to "My Classes"
-       self.secondlabel.text = "My Classes"
     }
     
 

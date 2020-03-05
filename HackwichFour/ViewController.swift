@@ -23,9 +23,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        myTextView.text =
-
         self.imageView.image = UIImage(named: "image1")
         self.imageView.image = UIImage(named: "Image 2")
   

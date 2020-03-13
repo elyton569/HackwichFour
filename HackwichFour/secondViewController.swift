@@ -9,7 +9,12 @@
 import UIKit
 
 class secondViewController: UIViewController {
-
+        
+    @IBOutlet weak var label: UILabel!
+    @IBAction func Convert(_ sender: Any) {
+        
+    }
+    
     override func viewDidLoad() {
 
         // Do any additional setup after loading the view.
